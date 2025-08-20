@@ -1,0 +1,77 @@
+Screen {
+    align: center middle;
+}
+
+
+VerticalGroup {
+    align: center middle;
+}
+
+HorizontalGroup {
+    align: center middle;
+}
+
+HorizontalScroll {
+    align: center top;
+    border: solid $foreground;
+    height: 5;
+}
+
+ProgressBar {
+    align: center middle;
+    width: 100%;
+    margin: 0 0 1 0;
+}
+
+Label {
+    margin: 1;
+}
+
+Dice {
+    background: $foreground;
+    border: none;
+    color: $background;
+    width: 7;
+    height: 3;
+    text-align: center;
+}
+
+Button {
+    margin: 1 2 1 2;
+    min-height: 1;
+    border: none;
+    padding: 0;
+}
+
+Player {
+    height: 3;
+    min-width: 3;
+    text-align: center;
+    align: center middle;
+    background: $foreground-muted;
+    color: $foreground;
+    margin: 0 1 0 1;
+    border: wide $foreground;
+}
+
+BigNumber {
+    border: none;
+    width: 26;
+    height: 7;
+    text-align: center;
+}
+
+GameContainer {
+    border: wide $foreground;
+    width: 84;
+    height: 20;
+    padding: 1;
+}
+
+GameLog {
+    width: 41;
+    height: 14;
+    margin: 0 0 0 2;
+    text-wrap: wrap;
+}
+
